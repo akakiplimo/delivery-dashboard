@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Fields, Alvarado and Brown Hotel",
+    "address": "Unit 2532 Box 5126\nDPO AE 65554",
+    "uuid": "c99f9dd8-9279-49ee-9110-d69e854ad448"
+  },
+  {
+    "name": "Hart, Jones and Jackson",
+    "address": "29844 John Orchard Suite 433\nMosleyburgh, VT 79659",
+    "uuid": "a5595731-5df6-4662-aad0-a2fde2385546"
+  },
+  {
+    "name": "Palmer, Herring and Hunt Hotel",
+    "address": "625 Ricky Tunnel\nCoryside, FL 87286",
+    "uuid": "80e18c3f-9e72-470c-93ac-ef3cddfc4023"
+  },
+  {
+    "name": "Wilson-Park",
+    "address": "832 King Grove\nNorth Ryanberg, MT 23110",
+    "uuid": "5b3efbb4-2264-4a0c-ad73-7607538c32b7"
+  },
+  {
+    "name": "Williams-Shelton Hotel",
+    "address": "57694 Robin Mount Suite 677\nKylechester, OK 03871",
+    "uuid": "d41ce050-5761-4b31-9b35-99bbfb624b96"
+  },
+  {
+    "name": "Smith, Walker and Anderson Hotel",
+    "address": "79329 Jeanette Plaza Apt. 573\nSouth Michaelstad, VA 69583",
+    "uuid": "027b9027-23e3-4c6a-80e7-1a3096a1bfd7"
+  },
+  {
+    "name": "Curtis LLC Hotel",
+    "address": "81156 Smith Terrace\nLake Heather, MA 36203",
+    "uuid": "d16bc384-8a08-4e5f-9ce6-b48d789b03d9"
+  },
+  {
+    "name": "Sullivan-Atkinson Hotel",
+    "address": "836 Darren Land Apt. 544\nBrittanyfurt, GA 88386",
+    "uuid": "a0690150-9fb5-42b6-8a34-4366c50ba361"
+  },
+  {
+    "name": "Davis-Pitts",
+    "address": "972 Robert Drive\nLake Melinda, TX 78532",
+    "uuid": "b06a8f84-ac0b-4c64-9c42-8951a04a3231"
+  },
+  {
+    "name": "Barber, Christian and Chavez Hotel",
+    "address": "Unit 4883 Box 4889\nDPO AP 68116",
+    "uuid": "b9807793-eb08-4595-9042-882360eacd94"
+  },
+  {
+    "name": "White LLC",
+    "address": "USNV Parks\nFPO AE 38046",
+    "uuid": "a833c9ef-5313-4628-9877-062d1043ec4d"
+  },
+  {
+    "name": "Higgins and Sons",
+    "address": "854 Martinez Radial\nLake Kristie, VT 68023",
+    "uuid": "8e1a850a-b6c1-4eba-abbf-214b5b08e0a3"
+  },
+  {
+    "name": "Hurst and Sons",
+    "address": "32738 Matthew Garden Apt. 991\nNorth Amanda, MD 92062",
+    "uuid": "6a091364-17b2-4047-b3ac-abeb7e6ed175"
+  },
+  {
+    "name": "Ramirez, Cruz and Perez Hotel",
+    "address": "236 Dunn Inlet\nDanielview, HI 45590",
+    "uuid": "4552d8e4-7f8b-4887-9a1c-b017c186d416"
+  },
+  {
+    "name": "Tran-Nelson Hotel",
+    "address": "4216 Jonathan Lock\nEast Rhonda, TX 59384",
+    "uuid": "e0de72d5-e87e-441f-ab74-690ea900559f"
+  },
+  {
+    "name": "Weaver Group",
+    "address": "93384 Jeremy Station Suite 791\nRamirezberg, KY 54108",
+    "uuid": "50d7f378-dc44-4c8a-818d-99e929a48efc"
+  },
+  {
+    "name": "Mullins, Robinson and Powell Hotel",
+    "address": "75433 Richardson Ferry\nLake Andrewside, MA 29546",
+    "uuid": "ca6efbdd-b8d3-4484-bc60-cbb84586321c"
+  },
+  {
+    "name": "Pena, Brown and Gregory",
+    "address": "563 Miller Lodge\nMontoyaton, SC 88770",
+    "uuid": "a9575dcc-d92f-4b56-9b35-a9b3cfd8cd9c"
+  },
+  {
+    "name": "Hoffman and Sons",
+    "address": "3318 Johnson Mount Apt. 214\nAmberport, IL 79446",
+    "uuid": "cca79ada-f2db-4df1-a2ae-4c40b8d9527e"
+  },
+  {
+    "name": "Rogers, Bailey and Caldwell",
+    "address": "0960 Walsh Courts Apt. 935\nStephaniefurt, NV 08480",
+    "uuid": "ac2ac7ad-44dc-41df-aad2-86accd6b51b2"
+  },
+  {
+    "name": "Smith, Gross and Price",
+    "address": "4582 Lori Harbors\nPort Nancytown, DE 20655",
+    "uuid": "3a95c541-0c4d-4fb2-83a6-8446005a5bb2"
+  },
+  {
+    "name": "Zimmerman Inc",
+    "address": "14143 Wilson Ways Apt. 324\nWarrenview, MI 17500",
+    "uuid": "43c22a16-ed73-4d50-b4b4-33016bffd0f1"
+  },
+  {
+    "name": "Graham-Watts Hotel",
+    "address": "91794 Michael Plaza\nWashingtonland, HI 16936",
+    "uuid": "ee3b2846-48a0-44fb-a514-f6496d8edecf"
+  },
+  {
+    "name": "Dickerson-Austin",
+    "address": "583 Mcintosh Via Suite 066\nWest Crystal, GA 40060",
+    "uuid": "6913d930-4f6e-4278-850f-f14e5c6485bd"
+  },
+  {
+    "name": "Alexander, Melendez and Sparks Hotel",
+    "address": "3827 Garcia River Suite 300\nMurphymouth, NC 81884",
+    "uuid": "02aa3adc-a441-4f14-8e3d-df4d722097cf"
+  },
+  {
+    "name": "Shaw, Pacheco and Kaiser",
+    "address": "846 Jeremy Mountains Suite 072\nNorth Williamtown, NY 37566",
+    "uuid": "8ea7edee-c327-4e1b-bf76-2ee4c653ffc4"
+  },
+  {
+    "name": "Jones, Powers and Holder Hotel",
+    "address": "3563 Jones Heights Apt. 826\nPort Michael, NV 61466",
+    "uuid": "b2fd0141-e3c2-4395-8a9f-711601c48b94"
+  },
+  {
+    "name": "Cisneros Ltd",
+    "address": "145 Caitlin Glens Apt. 954\nKingshire, ID 13290",
+    "uuid": "8d4da338-366a-45b4-97f0-94d71320b371"
+  },
+  {
+    "name": "Smith, Ayers and Bailey Hotel",
+    "address": "05814 Rice Fields\nCostaberg, MI 51195",
+    "uuid": "66d9eb53-f277-4b5f-bcf1-345a3f129169"
+  },
+  {
+    "name": "Fisher, Lewis and Lopez Hotel",
+    "address": "09866 Bennett Via\nJeanetteville, KS 97636",
+    "uuid": "132ecbfd-6741-4958-9870-d10d151f895f"
+  },
+  {
+    "name": "Miller and Sons Hotel",
+    "address": "09586 Robert View Apt. 557\nNew Elizabeth, KS 05705",
+    "uuid": "f08341bc-418b-4d53-a11c-74621dbfdcb5"
+  },
+  {
+    "name": "Everett-Ryan Hotel",
+    "address": "64432 Duarte Squares\nEast Elizabeth, MD 48830",
+    "uuid": "be2d7f2b-98af-4194-9303-c48b2c0700aa"
+  },
+  {
+    "name": "Roberts, Hansen and Miller",
+    "address": "64444 William Course Apt. 275\nPort Judyberg, AL 31010",
+    "uuid": "613c3867-c42f-4c01-a792-7b40a0c2db39"
+  },
+  {
+    "name": "Lewis, Reynolds and Robertson",
+    "address": "12382 Robert Ports\nNew Michaelchester, WY 60417",
+    "uuid": "d44edc4f-5575-4f2b-af73-eeceeddf84bb"
+  },
+  {
+    "name": "Braun, Gomez and Shelton Hotel",
+    "address": "570 Kara Causeway\nLake Marcusborough, CT 60277",
+    "uuid": "07f16bb2-e9a2-40a9-bb1f-f8eff34bec9d"
+  },
+  {
+    "name": "Reynolds, Marshall and Dunn",
+    "address": "60855 Pierce Prairie\nSouth Samantha, CA 01399",
+    "uuid": "106c052b-082f-4c17-9f93-28be5b6345bc"
+  },
+  {
+    "name": "Owen PLC",
+    "address": "6204 Navarro Lane\nNew Lisa, MO 29684",
+    "uuid": "85d608c9-97ac-4b70-923d-558cebe83609"
+  },
+  {
+    "name": "Monroe-Salinas",
+    "address": "4385 Shelley Mount Suite 858\nWhiteview, AR 11976",
+    "uuid": "a34e4ccf-2f9b-4dd5-b0a7-066ad28fda1d"
+  },
+  {
+    "name": "Smith, Rios and Wilson Hotel",
+    "address": "15685 Ingram Trace\nNorth Sherry, NE 43530",
+    "uuid": "5edcf0ff-a2f3-4f8f-898c-d1403c37e706"
+  },
+  {
+    "name": "Rios Ltd Hotel",
+    "address": "529 Nicholas Springs Apt. 194\nCaldwellburgh, OH 18856",
+    "uuid": "243fc1aa-d94c-4120-99fe-f70dcc11fc64"
+  },
+  {
+    "name": "Morris Inc",
+    "address": "Unit 3147 Box 0974\nDPO AE 10321",
+    "uuid": "a2ac1876-5680-46c6-8a11-17e321e9fc75"
+  },
+  {
+    "name": "Williams Ltd Hotel",
+    "address": "86185 Shaffer Orchard Apt. 492\nLake Kelly, MT 36968",
+    "uuid": "3664fd7c-ec25-4baa-9432-c751acf13000"
+  },
+  {
+    "name": "Yoder Inc Hotel",
+    "address": "552 Fletcher Underpass Apt. 399\nEllisbury, VA 69809",
+    "uuid": "6eb4edbf-ceb1-4202-beb9-f83cd6c04bce"
+  },
+  {
+    "name": "Brown-Oconnor",
+    "address": "176 Austin Skyway\nPort Jasonport, AK 16093",
+    "uuid": "365e679b-1616-41fc-bd2a-4dc74772d608"
+  },
+  {
+    "name": "Dennis-Ferguson",
+    "address": "63438 Ayala Forge Apt. 410\nNew Rita, NC 83711",
+    "uuid": "2d0ae4fe-3406-41a8-92ac-8678974975ac"
+  },
+  {
+    "name": "Ramirez, Massey and Bryant Hotel",
+    "address": "70565 Edward Inlet\nNew Carla, VA 84281",
+    "uuid": "2708d32d-0b6e-44be-81b7-e00f5079d8c3"
+  },
+  {
+    "name": "Edwards-Hayes",
+    "address": "620 Mary Gateway Apt. 128\nEast Melissaview, ND 65365",
+    "uuid": "2dc99e2e-4156-423d-810f-0ddb458a670b"
+  },
+  {
+    "name": "Mclean, Garcia and Medina",
+    "address": "052 Gilbert Plaza Apt. 951\nLake Kendraland, TX 03822",
+    "uuid": "30067ff2-e687-42c3-bdd0-11578764b42e"
+  },
+  {
+    "name": "Henry, Cobb and Carney Hotel",
+    "address": "88430 Gonzalez Spur\nAmberfort, MO 93729",
+    "uuid": "60937a17-be6d-4d99-942e-5c1fb1183799"
+  },
+  {
+    "name": "Johnston, Martinez and Torres Hotel",
+    "address": "93800 Colon Falls Suite 997\nNew Jamesmouth, NY 55911",
+    "uuid": "9581fdd8-fc92-4a43-ae2f-b6416533d825"
+  }
+]
