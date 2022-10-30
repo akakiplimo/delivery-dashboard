@@ -1,5 +1,8 @@
 # Delivery Dashboard With React and Chart.js
 
+## Structure & Table Demo
+<img src="src/images/dd-ddemo-one.gif" alt="top demo gif">
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
