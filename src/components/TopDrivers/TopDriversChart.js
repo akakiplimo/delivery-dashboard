@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import Form from 'react-bootstrap/Form';
+// import Dropdown from 'react-bootstrap/Dropdown';
+import Stack from 'react-bootstrap/Stack';
 import { Chart as ChartJs, ArcElement, Title, Tooltip, Legend } from 'chart.js'
 import { Doughnut } from 'react-chartjs-2';
 import driverData from '../../data/drivers.json'
@@ -41,13 +44,70 @@ const TopDriversChart = () => {
 
     console.log('ddere mzima', fullDataset);
 
-    // Object.filter = (object, objectItems) => Object.fromEntries(Object.entries(object)
-    //     .filter(objectItems))
+    // Filtration
+    const columns = [
+        { accessor: 'driver_name', label: 'Driver Name' },
+        { accessor: 'name', label: 'Hotel Name' },
+        { accessor: 'rating', label: 'Rating' },
+        { accessor: 'start_date_standard', label: 'Start Time' },
+        { accessor: 'delivery_date_standard', label: 'End Time' }
+    ]
 
-    // const filtereByHotels = Object.filter(fullDataset, ([name, value]) => value == value);
-    // console.log('dere hoteli', Object.values(filtereByHotels))
+    const filterRows = (rows, filters) => {
+        if (filters === '') return rows;
 
-    let groups = fullDataset.reduce(function (r, o) {
+        return rows.filter(row => {
+            // console.log(Object.keys(filters));
+            return Object.keys(filters).every(accessor => {
+                const value = row[accessor]
+                // console.log("v: " + value, typeof value);
+                const searchValue = filters[accessor]
+                // console.log("sV: " + searchValue, typeof searchValue)
+
+                if (typeof value === 'string') {
+                    console.log("naona string")
+                    return value.toLowerCase().includes(searchValue.toLowerCase())
+                }
+
+                if (typeof value === 'boolean') {
+                    return (searchValue === 'true' && value) || (searchValue === 'false' && !value)
+                }
+
+                if (typeof value === 'number') {
+                    console.log("naona no")
+                    let sValue = Number(searchValue)
+                    return value === sValue
+                }
+
+                return false;
+            })
+        })
+    }
+
+
+    const handleSearch = (value, accessor) => {
+        if (value) {
+            setFilters(prevFilters => ({
+                ...prevFilters,
+                [accessor]: value,
+            }))
+        } else {
+            setFilters(prevFilters => {
+                const updatedFilters = { ...prevFilters }
+                delete updatedFilters[accessor]
+
+                return updatedFilters
+            })
+        }
+    }
+
+    const [filters, setFilters] = useState({});
+
+    const filtered = filterRows(fullDataset, filters);
+
+    console.log("Filter by Hotel", filtered)
+
+    let groups = filtered.reduce(function (r, o) {
         var k = o.full_name + o.driver_id;
         if (r[k]) {
             if (o.rating) (r[k].totalRating += o.rating) && ++r[k].Average;
@@ -64,13 +124,13 @@ const TopDriversChart = () => {
         return groups[k];
     });
 
-    const topN = (obj, num=1) => {
+    const topN = (obj, num = 1) => {
         const reqObj = {}
         if (num > Object.keys(obj).length) {
             return false;
         };
         Object.keys(obj).sort((a, b) => obj[b] - obj[a]).forEach((key, ind) => {
-            if (ind < num){
+            if (ind < num) {
                 reqObj[key] = obj[key];
             }
         });
@@ -83,6 +143,11 @@ const TopDriversChart = () => {
 
     console.log("Res", result)
     console.log("Top", topDrivers)
+
+    let unfilteredHotels = fullDataset.map(item => Object.values(item)[0])
+    let filteredHotels = unfilteredHotels.filter((x, i, a) => a.indexOf(x) === i)
+
+    console.log("Hotel Names", filteredHotels)
 
     console.log(Object.values(topDrivers[0]).map(x => x.full_name))
 
@@ -136,15 +201,43 @@ const TopDriversChart = () => {
         }
     }
 
+    let columnHotel = Object.values(columns[1])[0]
+    console.log('hotelKey', columnHotel)
+
     return (
-        <div className="chart container" id="TopN">
-            <Doughnut
-                data={data}
-                options={options}
-                height={400}
-                width={600}
-            />
-        </div>
+        <Stack className="container" id="TopN">
+            <div className=" stack-element container">
+                <Form.Control
+                    key="hotel-name-search"
+                    type="search"
+                    placeholder="Filter by Hotel"
+                    value={filters[columnHotel]}
+                    onChange={e => handleSearch(e.target.value, columnHotel)}
+                />
+                <Form.Select 
+                    aria-label="select-hotels"
+                    onChange={e => handleSearch(e.target.value, columnHotel)}    
+                >
+                    <option value="">Choose Hotel</option>
+                    {
+                        filteredHotels.map(item => {
+                            return (
+                                <option value={item}>{item}</option>
+                            )
+                        })
+                    }
+                </Form.Select>
+            </div>
+            <div className="chart container">
+                <Doughnut
+                    data={data}
+                    options={options}
+                    height={400}
+                    width={600}
+                />
+            </div>
+
+        </Stack>
     )
 }
 

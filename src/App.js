@@ -2,12 +2,12 @@ import './App.css';
 import BarChart from './components/DeliveriesCharts/DeliveriesBarChart';
 import Deliveries from './components/DeliveriesTable/DeliveriesTable';
 import TopDriversChart from './components/TopDrivers/TopDriversChart';
-import logo from './images/Novek.png'
+import NavBar from './components/NavBar/NavBar';
 
 const App = () => {
   return (
     <div>
-      <div className='main-heading text-center'>
+      {/* <div className='main-heading text-center'>
         <div className='brand-logo'>
           <img src={logo} alt="brand-logo"/>
         </div>
@@ -18,6 +18,8 @@ const App = () => {
         </div>
         <h1>Delivery Dashboard</h1>
       </div>
+       */}
+      <NavBar />
       <Deliveries />
       <TopDriversChart />
       <BarChart />

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Table from 'react-bootstrap/Table';
+import Form from 'react-bootstrap/Form';
 import driverData from '../../data/drivers.json'
 import hotelData from '../../data/hotels.json'
 import tripsData from '../../data/trips.json'
@@ -79,6 +80,7 @@ const Deliveries = () => {
         })
     }
 
+
     const handleSearch = (value, accessor) => {
         setActivePage(1)
 
@@ -105,6 +107,7 @@ const Deliveries = () => {
     // console.log(filters)
 
     const filteredRows = filterRows(fullDataset, filters);
+    console.log('filter', filteredRows)
     const calculatedRows = filteredRows.slice((activePage - 1) * rowsPerPage, activePage * rowsPerPage);
 
     const count = filteredRows.length;
@@ -125,7 +128,7 @@ const Deliveries = () => {
                             {columns.map(col => {
                                 return (
                                     <th>
-                                        <input
+                                        <Form.Control
                                             key={`${col.accessor}-search`}
                                             type="search"
                                             placeholder={`Search ${col.label}`}
